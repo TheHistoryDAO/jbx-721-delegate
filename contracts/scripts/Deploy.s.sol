@@ -36,8 +36,8 @@ contract DeployMainnet is Script {
 }
 
 contract DeployGoerli is Script {
-  IJBController jbController = IJBController(0x7Cb86D43B665196BC719b6974D320bf674AFb395);
-  IJBOperatorStore jbOperatorStore = IJBOperatorStore(0x99dB6b517683237dE9C494bbd17861f3608F3585);
+  IJBController jbController = IJBController(0xAF4a494E24bddc0AC898D782c3022df0b28cc6A8);
+  IJBOperatorStore jbOperatorStore = IJBOperatorStore(0x739d23f90113d653c0062af93B52fa0BA63435E8);
 
   JBTiered721DelegateDeployer delegateDeployer;
   JBTiered721DelegateProjectDeployer projectDeployer;

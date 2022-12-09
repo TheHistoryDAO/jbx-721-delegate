@@ -10,19 +10,20 @@
   },
   "ast": {
     "absolutePath": "contracts/structs/JBTiered721Flags.sol",
-    "id": 29724,
+    "id": 30102,
     "exportedSymbols": {
       "JBTiered721Flags": [
-        29723
+        30101
       ]
     },
     "nodeType": "SourceUnit",
     "src": "32:576:38",
     "nodes": [
       {
-        "id": 29716,
+        "id": 30094,
         "nodeType": "PragmaDirective",
         "src": "32:23:38",
+        "nodes": [],
         "literals": [
           "solidity",
           "^",
@@ -31,19 +32,20 @@
         ]
       },
       {
-        "id": 29723,
+        "id": 30101,
         "nodeType": "StructDefinition",
         "src": "484:123:38",
+        "nodes": [],
         "canonicalName": "JBTiered721Flags",
         "members": [
           {
             "constant": false,
-            "id": 29718,
+            "id": 30096,
             "mutability": "mutable",
             "name": "lockReservedTokenChanges",
             "nameLocation": "517:24:38",
             "nodeType": "VariableDeclaration",
-            "scope": 29723,
+            "scope": 30101,
             "src": "512:29:38",
             "stateVariable": false,
             "storageLocation": "default",
@@ -52,7 +54,7 @@
               "typeString": "bool"
             },
             "typeName": {
-              "id": 29717,
+              "id": 30095,
               "name": "bool",
               "nodeType": "ElementaryTypeName",
               "src": "512:4:38",
@@ -65,12 +67,12 @@
           },
           {
             "constant": false,
-            "id": 29720,
+            "id": 30098,
             "mutability": "mutable",
             "name": "lockVotingUnitChanges",
             "nameLocation": "550:21:38",
             "nodeType": "VariableDeclaration",
-            "scope": 29723,
+            "scope": 30101,
             "src": "545:26:38",
             "stateVariable": false,
             "storageLocation": "default",
@@ -79,7 +81,7 @@
               "typeString": "bool"
             },
             "typeName": {
-              "id": 29719,
+              "id": 30097,
               "name": "bool",
               "nodeType": "ElementaryTypeName",
               "src": "545:4:38",
@@ -92,12 +94,12 @@
           },
           {
             "constant": false,
-            "id": 29722,
+            "id": 30100,
             "mutability": "mutable",
             "name": "lockManualMintingChanges",
             "nameLocation": "580:24:38",
             "nodeType": "VariableDeclaration",
-            "scope": 29723,
+            "scope": 30101,
             "src": "575:29:38",
             "stateVariable": false,
             "storageLocation": "default",
@@ -106,7 +108,7 @@
               "typeString": "bool"
             },
             "typeName": {
-              "id": 29721,
+              "id": 30099,
               "name": "bool",
               "nodeType": "ElementaryTypeName",
               "src": "575:4:38",
@@ -120,7 +122,7 @@
         ],
         "name": "JBTiered721Flags",
         "nameLocation": "491:16:38",
-        "scope": 29724,
+        "scope": 30102,
         "visibility": "public"
       }
     ],

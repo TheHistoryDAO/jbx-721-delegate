@@ -10,19 +10,20 @@
   },
   "ast": {
     "absolutePath": "node_modules/@jbx-protocol/juice-contracts-v3/contracts/enums/JBBallotState.sol",
-    "id": 63746,
+    "id": 65945,
     "exportedSymbols": {
       "JBBallotState": [
-        63745
+        65944
       ]
     },
     "nodeType": "SourceUnit",
-    "src": "32:79:66",
+    "src": "32:79:75",
     "nodes": [
       {
-        "id": 63741,
+        "id": 65940,
         "nodeType": "PragmaDirective",
-        "src": "32:23:66",
+        "src": "32:23:75",
+        "nodes": [],
         "literals": [
           "solidity",
           "^",
@@ -31,38 +32,39 @@
         ]
       },
       {
-        "id": 63745,
+        "id": 65944,
         "nodeType": "EnumDefinition",
-        "src": "57:53:66",
+        "src": "57:53:75",
+        "nodes": [],
         "canonicalName": "JBBallotState",
         "members": [
           {
-            "id": 63742,
+            "id": 65941,
             "name": "Active",
-            "nameLocation": "80:6:66",
+            "nameLocation": "80:6:75",
             "nodeType": "EnumValue",
-            "src": "80:6:66"
+            "src": "80:6:75"
           },
           {
-            "id": 63743,
+            "id": 65942,
             "name": "Approved",
-            "nameLocation": "90:8:66",
+            "nameLocation": "90:8:75",
             "nodeType": "EnumValue",
-            "src": "90:8:66"
+            "src": "90:8:75"
           },
           {
-            "id": 63744,
+            "id": 65943,
             "name": "Failed",
-            "nameLocation": "102:6:66",
+            "nameLocation": "102:6:75",
             "nodeType": "EnumValue",
-            "src": "102:6:66"
+            "src": "102:6:75"
           }
         ],
         "name": "JBBallotState",
-        "nameLocation": "62:13:66"
+        "nameLocation": "62:13:75"
       }
     ],
     "license": "MIT"
   },
-  "id": 66
+  "id": 75
 }

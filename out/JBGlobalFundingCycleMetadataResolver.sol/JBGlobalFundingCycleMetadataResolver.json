@@ -1,37 +1,106 @@
 {
   "abi": [],
   "bytecode": {
-    "object": "0x60566037600b82828239805160001a607314602a57634e487b7160e01b600052600060045260246000fd5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220db9f52c5785d5c685e17ed956988ffc0b9dd59fd528ee267712254c5ee8d110064736f6c63430008100033",
-    "sourceMap": "109:1539:98:-:0;;;;;;;;;;;;;;;-1:-1:-1;;;109:1539:98;;;;;;;;;;;;;;;;;",
+    "object": "0x60566037600b82828239805160001a607314602a57634e487b7160e01b600052600060045260246000fd5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220ee27592496b277f0bd87c696b62cb69101970c84dfc2f10a6f4864f869dc014564736f6c63430008110033",
+    "sourceMap": "109:1539:107:-:0;;;;;;;;;;;;;;;-1:-1:-1;;;109:1539:107;;;;;;;;;;;;;;;;;",
     "linkReferences": {}
   },
   "deployedBytecode": {
-    "object": "0x73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220db9f52c5785d5c685e17ed956988ffc0b9dd59fd528ee267712254c5ee8d110064736f6c63430008100033",
-    "sourceMap": "109:1539:98:-:0;;;;;;;;",
+    "object": "0x73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220ee27592496b277f0bd87c696b62cb69101970c84dfc2f10a6f4864f869dc014564736f6c63430008110033",
+    "sourceMap": "109:1539:107:-:0;;;;;;;;",
     "linkReferences": {}
   },
   "methodIdentifiers": {},
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"node_modules/@jbx-protocol/juice-contracts-v3/contracts/libraries/JBGlobalFundingCycleMetadataResolver.sol\":\"JBGlobalFundingCycleMetadataResolver\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":@jbx-protocol/=node_modules/@jbx-protocol/\",\":@openzeppelin/=node_modules/@openzeppelin/\",\":@paulrberg/=node_modules/@paulrberg/\",\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\",\":prb-math/=node_modules/prb-math/\"]},\"sources\":{\"node_modules/@jbx-protocol/juice-contracts-v3/contracts/libraries/JBGlobalFundingCycleMetadataResolver.sol\":{\"keccak256\":\"0x0d998f938026edeb755987a79421267cf860801161b5f171206a200b60f1061f\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://d2ff895bbf2f18fe6538abe53966acd8ea128795283209bb8402ac72ddd529b1\",\"dweb:/ipfs/QmZgU8rokY5sBQ2guFmPotGh4e8ReNHAyZzRhZXrN9a8EP\"]},\"node_modules/@jbx-protocol/juice-contracts-v3/contracts/structs/JBFundingCycleMetadata.sol\":{\"keccak256\":\"0x783604440cac8d176332eab28166f188ee5c230378c08cfc95fea4f7187dc77d\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://81409f9675aabd5ece88efbf08d1acb5581c2aac5b6394824f575f5f2edb5788\",\"dweb:/ipfs/QmPWdUztAEssCEnuFFkj74kNFEfVUxbNFmD5GmVB2Qvj1h\"]},\"node_modules/@jbx-protocol/juice-contracts-v3/contracts/structs/JBGlobalFundingCycleMetadata.sol\":{\"keccak256\":\"0x05d85530305fec6d6eca54cdbc2cd9110cbda0146598032b0203aa4b622944ff\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://ec56eff6784c7b60ebc3098037573d8ece138794a9a58ebe8412e75927e984cd\",\"dweb:/ipfs/QmdkEeE6JDyCiV3YBKf7h3FymEHCAHHAtBokUkJwFWVPSf\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.17+commit.8df45f5f"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":@jbx-protocol/=node_modules/@jbx-protocol/",
+        ":@openzeppelin/=node_modules/@openzeppelin/",
+        ":@paulrberg/=node_modules/@paulrberg/",
+        ":ds-test/=lib/forge-std/lib/ds-test/src/",
+        ":forge-std/=lib/forge-std/src/",
+        ":prb-math/=node_modules/prb-math/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "node_modules/@jbx-protocol/juice-contracts-v3/contracts/libraries/JBGlobalFundingCycleMetadataResolver.sol": "JBGlobalFundingCycleMetadataResolver"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "node_modules/@jbx-protocol/juice-contracts-v3/contracts/libraries/JBGlobalFundingCycleMetadataResolver.sol": {
+        "keccak256": "0x0d998f938026edeb755987a79421267cf860801161b5f171206a200b60f1061f",
+        "urls": [
+          "bzz-raw://d2ff895bbf2f18fe6538abe53966acd8ea128795283209bb8402ac72ddd529b1",
+          "dweb:/ipfs/QmZgU8rokY5sBQ2guFmPotGh4e8ReNHAyZzRhZXrN9a8EP"
+        ],
+        "license": "MIT"
+      },
+      "node_modules/@jbx-protocol/juice-contracts-v3/contracts/structs/JBFundingCycleMetadata.sol": {
+        "keccak256": "0x783604440cac8d176332eab28166f188ee5c230378c08cfc95fea4f7187dc77d",
+        "urls": [
+          "bzz-raw://81409f9675aabd5ece88efbf08d1acb5581c2aac5b6394824f575f5f2edb5788",
+          "dweb:/ipfs/QmPWdUztAEssCEnuFFkj74kNFEfVUxbNFmD5GmVB2Qvj1h"
+        ],
+        "license": "MIT"
+      },
+      "node_modules/@jbx-protocol/juice-contracts-v3/contracts/structs/JBGlobalFundingCycleMetadata.sol": {
+        "keccak256": "0x05d85530305fec6d6eca54cdbc2cd9110cbda0146598032b0203aa4b622944ff",
+        "urls": [
+          "bzz-raw://ec56eff6784c7b60ebc3098037573d8ece138794a9a58ebe8412e75927e984cd",
+          "dweb:/ipfs/QmdkEeE6JDyCiV3YBKf7h3FymEHCAHHAtBokUkJwFWVPSf"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
   "ast": {
     "absolutePath": "node_modules/@jbx-protocol/juice-contracts-v3/contracts/libraries/JBGlobalFundingCycleMetadataResolver.sol",
-    "id": 66578,
+    "id": 68777,
     "exportedSymbols": {
       "JBFundingCycleMetadata": [
-        66808
+        69007
       ],
       "JBGlobalFundingCycleMetadata": [
-        66817
+        69016
       ],
       "JBGlobalFundingCycleMetadataResolver": [
-        66577
+        68776
       ]
     },
     "nodeType": "SourceUnit",
-    "src": "32:1617:98",
+    "src": "32:1617:107",
     "nodes": [
       {
-        "id": 66467,
+        "id": 68666,
         "nodeType": "PragmaDirective",
-        "src": "32:24:98",
+        "src": "32:24:107",
+        "nodes": [],
         "literals": [
           "solidity",
           "^",
@@ -40,30 +109,33 @@
         ]
       },
       {
-        "id": 66468,
+        "id": 68667,
         "nodeType": "ImportDirective",
-        "src": "58:49:98",
+        "src": "58:49:107",
+        "nodes": [],
         "absolutePath": "node_modules/@jbx-protocol/juice-contracts-v3/contracts/structs/JBFundingCycleMetadata.sol",
         "file": "./../structs/JBFundingCycleMetadata.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 66578,
-        "sourceUnit": 66809,
+        "scope": 68777,
+        "sourceUnit": 69008,
         "symbolAliases": [],
         "unitAlias": ""
       },
       {
-        "id": 66577,
+        "id": 68776,
         "nodeType": "ContractDefinition",
-        "src": "109:1539:98",
+        "src": "109:1539:107",
         "nodes": [
           {
-            "id": 66483,
+            "id": 68682,
             "nodeType": "FunctionDefinition",
-            "src": "158:105:98",
+            "src": "158:105:107",
+            "nodes": [],
             "body": {
-              "id": 66482,
+              "id": 68681,
               "nodeType": "Block",
-              "src": "229:34:98",
+              "src": "229:34:107",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -71,7 +143,7 @@
                       "typeIdentifier": "t_uint8",
                       "typeString": "uint8"
                     },
-                    "id": 66480,
+                    "id": 68679,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -83,18 +155,18 @@
                             "typeIdentifier": "t_uint8",
                             "typeString": "uint8"
                           },
-                          "id": 66477,
+                          "id": 68676,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
                           "lValueRequested": false,
                           "leftExpression": {
-                            "id": 66475,
+                            "id": 68674,
                             "name": "_data",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 66470,
-                            "src": "243:5:98",
+                            "referencedDeclaration": 68669,
+                            "src": "243:5:107",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint8",
                               "typeString": "uint8"
@@ -104,35 +176,35 @@
                           "operator": "&",
                           "rightExpression": {
                             "hexValue": "31",
-                            "id": 66476,
+                            "id": 68675,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": true,
                             "kind": "number",
                             "lValueRequested": false,
                             "nodeType": "Literal",
-                            "src": "251:1:98",
+                            "src": "251:1:107",
                             "typeDescriptions": {
                               "typeIdentifier": "t_rational_1_by_1",
                               "typeString": "int_const 1"
                             },
                             "value": "1"
                           },
-                          "src": "243:9:98",
+                          "src": "243:9:107",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint8",
                             "typeString": "uint8"
                           }
                         }
                       ],
-                      "id": 66478,
+                      "id": 68677,
                       "isConstant": false,
                       "isInlineArray": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "nodeType": "TupleExpression",
-                      "src": "242:11:98",
+                      "src": "242:11:107",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint8",
                         "typeString": "uint8"
@@ -142,30 +214,30 @@
                     "operator": "==",
                     "rightExpression": {
                       "hexValue": "31",
-                      "id": 66479,
+                      "id": 68678,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
                       "kind": "number",
                       "lValueRequested": false,
                       "nodeType": "Literal",
-                      "src": "257:1:98",
+                      "src": "257:1:107",
                       "typeDescriptions": {
                         "typeIdentifier": "t_rational_1_by_1",
                         "typeString": "int_const 1"
                       },
                       "value": "1"
                     },
-                    "src": "242:16:98",
+                    "src": "242:16:107",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     }
                   },
-                  "functionReturnParameters": 66474,
-                  "id": 66481,
+                  "functionReturnParameters": 68673,
+                  "id": 68680,
                   "nodeType": "Return",
-                  "src": "235:23:98"
+                  "src": "235:23:107"
                 }
               ]
             },
@@ -173,20 +245,20 @@
             "kind": "function",
             "modifiers": [],
             "name": "setTerminalsAllowed",
-            "nameLocation": "167:19:98",
+            "nameLocation": "167:19:107",
             "parameters": {
-              "id": 66471,
+              "id": 68670,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 66470,
+                  "id": 68669,
                   "mutability": "mutable",
                   "name": "_data",
-                  "nameLocation": "193:5:98",
+                  "nameLocation": "193:5:107",
                   "nodeType": "VariableDeclaration",
-                  "scope": 66483,
-                  "src": "187:11:98",
+                  "scope": 68682,
+                  "src": "187:11:107",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -194,10 +266,10 @@
                     "typeString": "uint8"
                   },
                   "typeName": {
-                    "id": 66469,
+                    "id": 68668,
                     "name": "uint8",
                     "nodeType": "ElementaryTypeName",
-                    "src": "187:5:98",
+                    "src": "187:5:107",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint8",
                       "typeString": "uint8"
@@ -206,21 +278,21 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "186:13:98"
+              "src": "186:13:107"
             },
             "returnParameters": {
-              "id": 66474,
+              "id": 68673,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 66473,
+                  "id": 68672,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 66483,
-                  "src": "223:4:98",
+                  "scope": 68682,
+                  "src": "223:4:107",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -228,10 +300,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 66472,
+                    "id": 68671,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "223:4:98",
+                    "src": "223:4:107",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -240,21 +312,23 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "222:6:98"
+              "src": "222:6:107"
             },
-            "scope": 66577,
+            "scope": 68776,
             "stateMutability": "pure",
             "virtual": false,
             "visibility": "internal"
           },
           {
-            "id": 66501,
+            "id": 68700,
             "nodeType": "FunctionDefinition",
-            "src": "267:113:98",
+            "src": "267:113:107",
+            "nodes": [],
             "body": {
-              "id": 66500,
+              "id": 68699,
               "nodeType": "Block",
-              "src": "339:41:98",
+              "src": "339:41:107",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -262,7 +336,7 @@
                       "typeIdentifier": "t_uint8",
                       "typeString": "uint8"
                     },
-                    "id": 66498,
+                    "id": 68697,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -274,7 +348,7 @@
                             "typeIdentifier": "t_uint8",
                             "typeString": "uint8"
                           },
-                          "id": 66495,
+                          "id": 68694,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -286,18 +360,18 @@
                                   "typeIdentifier": "t_uint8",
                                   "typeString": "uint8"
                                 },
-                                "id": 66492,
+                                "id": 68691,
                                 "isConstant": false,
                                 "isLValue": false,
                                 "isPure": false,
                                 "lValueRequested": false,
                                 "leftExpression": {
-                                  "id": 66490,
+                                  "id": 68689,
                                   "name": "_data",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 66485,
-                                  "src": "354:5:98",
+                                  "referencedDeclaration": 68684,
+                                  "src": "354:5:107",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_uint8",
                                     "typeString": "uint8"
@@ -307,35 +381,35 @@
                                 "operator": ">>",
                                 "rightExpression": {
                                   "hexValue": "31",
-                                  "id": 66491,
+                                  "id": 68690,
                                   "isConstant": false,
                                   "isLValue": false,
                                   "isPure": true,
                                   "kind": "number",
                                   "lValueRequested": false,
                                   "nodeType": "Literal",
-                                  "src": "363:1:98",
+                                  "src": "363:1:107",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_rational_1_by_1",
                                     "typeString": "int_const 1"
                                   },
                                   "value": "1"
                                 },
-                                "src": "354:10:98",
+                                "src": "354:10:107",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_uint8",
                                   "typeString": "uint8"
                                 }
                               }
                             ],
-                            "id": 66493,
+                            "id": 68692,
                             "isConstant": false,
                             "isInlineArray": false,
                             "isLValue": false,
                             "isPure": false,
                             "lValueRequested": false,
                             "nodeType": "TupleExpression",
-                            "src": "353:12:98",
+                            "src": "353:12:107",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint8",
                               "typeString": "uint8"
@@ -345,35 +419,35 @@
                           "operator": "&",
                           "rightExpression": {
                             "hexValue": "31",
-                            "id": 66494,
+                            "id": 68693,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": true,
                             "kind": "number",
                             "lValueRequested": false,
                             "nodeType": "Literal",
-                            "src": "368:1:98",
+                            "src": "368:1:107",
                             "typeDescriptions": {
                               "typeIdentifier": "t_rational_1_by_1",
                               "typeString": "int_const 1"
                             },
                             "value": "1"
                           },
-                          "src": "353:16:98",
+                          "src": "353:16:107",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint8",
                             "typeString": "uint8"
                           }
                         }
                       ],
-                      "id": 66496,
+                      "id": 68695,
                       "isConstant": false,
                       "isInlineArray": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "nodeType": "TupleExpression",
-                      "src": "352:18:98",
+                      "src": "352:18:107",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint8",
                         "typeString": "uint8"
@@ -383,30 +457,30 @@
                     "operator": "==",
                     "rightExpression": {
                       "hexValue": "31",
-                      "id": 66497,
+                      "id": 68696,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
                       "kind": "number",
                       "lValueRequested": false,
                       "nodeType": "Literal",
-                      "src": "374:1:98",
+                      "src": "374:1:107",
                       "typeDescriptions": {
                         "typeIdentifier": "t_rational_1_by_1",
                         "typeString": "int_const 1"
                       },
                       "value": "1"
                     },
-                    "src": "352:23:98",
+                    "src": "352:23:107",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     }
                   },
-                  "functionReturnParameters": 66489,
-                  "id": 66499,
+                  "functionReturnParameters": 68688,
+                  "id": 68698,
                   "nodeType": "Return",
-                  "src": "345:30:98"
+                  "src": "345:30:107"
                 }
               ]
             },
@@ -414,20 +488,20 @@
             "kind": "function",
             "modifiers": [],
             "name": "setControllerAllowed",
-            "nameLocation": "276:20:98",
+            "nameLocation": "276:20:107",
             "parameters": {
-              "id": 66486,
+              "id": 68685,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 66485,
+                  "id": 68684,
                   "mutability": "mutable",
                   "name": "_data",
-                  "nameLocation": "303:5:98",
+                  "nameLocation": "303:5:107",
                   "nodeType": "VariableDeclaration",
-                  "scope": 66501,
-                  "src": "297:11:98",
+                  "scope": 68700,
+                  "src": "297:11:107",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -435,10 +509,10 @@
                     "typeString": "uint8"
                   },
                   "typeName": {
-                    "id": 66484,
+                    "id": 68683,
                     "name": "uint8",
                     "nodeType": "ElementaryTypeName",
-                    "src": "297:5:98",
+                    "src": "297:5:107",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint8",
                       "typeString": "uint8"
@@ -447,21 +521,21 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "296:13:98"
+              "src": "296:13:107"
             },
             "returnParameters": {
-              "id": 66489,
+              "id": 68688,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 66488,
+                  "id": 68687,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 66501,
-                  "src": "333:4:98",
+                  "scope": 68700,
+                  "src": "333:4:107",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -469,10 +543,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 66487,
+                    "id": 68686,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "333:4:98",
+                    "src": "333:4:107",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -481,21 +555,23 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "332:6:98"
+              "src": "332:6:107"
             },
-            "scope": 66577,
+            "scope": 68776,
             "stateMutability": "pure",
             "virtual": false,
             "visibility": "internal"
           },
           {
-            "id": 66519,
+            "id": 68718,
             "nodeType": "FunctionDefinition",
-            "src": "384:108:98",
+            "src": "384:108:107",
+            "nodes": [],
             "body": {
-              "id": 66518,
+              "id": 68717,
               "nodeType": "Block",
-              "src": "451:41:98",
+              "src": "451:41:107",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -503,7 +579,7 @@
                       "typeIdentifier": "t_uint8",
                       "typeString": "uint8"
                     },
-                    "id": 66516,
+                    "id": 68715,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -515,7 +591,7 @@
                             "typeIdentifier": "t_uint8",
                             "typeString": "uint8"
                           },
-                          "id": 66513,
+                          "id": 68712,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -527,18 +603,18 @@
                                   "typeIdentifier": "t_uint8",
                                   "typeString": "uint8"
                                 },
-                                "id": 66510,
+                                "id": 68709,
                                 "isConstant": false,
                                 "isLValue": false,
                                 "isPure": false,
                                 "lValueRequested": false,
                                 "leftExpression": {
-                                  "id": 66508,
+                                  "id": 68707,
                                   "name": "_data",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 66503,
-                                  "src": "466:5:98",
+                                  "referencedDeclaration": 68702,
+                                  "src": "466:5:107",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_uint8",
                                     "typeString": "uint8"
@@ -548,35 +624,35 @@
                                 "operator": ">>",
                                 "rightExpression": {
                                   "hexValue": "32",
-                                  "id": 66509,
+                                  "id": 68708,
                                   "isConstant": false,
                                   "isLValue": false,
                                   "isPure": true,
                                   "kind": "number",
                                   "lValueRequested": false,
                                   "nodeType": "Literal",
-                                  "src": "475:1:98",
+                                  "src": "475:1:107",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_rational_2_by_1",
                                     "typeString": "int_const 2"
                                   },
                                   "value": "2"
                                 },
-                                "src": "466:10:98",
+                                "src": "466:10:107",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_uint8",
                                   "typeString": "uint8"
                                 }
                               }
                             ],
-                            "id": 66511,
+                            "id": 68710,
                             "isConstant": false,
                             "isInlineArray": false,
                             "isLValue": false,
                             "isPure": false,
                             "lValueRequested": false,
                             "nodeType": "TupleExpression",
-                            "src": "465:12:98",
+                            "src": "465:12:107",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint8",
                               "typeString": "uint8"
@@ -586,35 +662,35 @@
                           "operator": "&",
                           "rightExpression": {
                             "hexValue": "31",
-                            "id": 66512,
+                            "id": 68711,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": true,
                             "kind": "number",
                             "lValueRequested": false,
                             "nodeType": "Literal",
-                            "src": "480:1:98",
+                            "src": "480:1:107",
                             "typeDescriptions": {
                               "typeIdentifier": "t_rational_1_by_1",
                               "typeString": "int_const 1"
                             },
                             "value": "1"
                           },
-                          "src": "465:16:98",
+                          "src": "465:16:107",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint8",
                             "typeString": "uint8"
                           }
                         }
                       ],
-                      "id": 66514,
+                      "id": 68713,
                       "isConstant": false,
                       "isInlineArray": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "nodeType": "TupleExpression",
-                      "src": "464:18:98",
+                      "src": "464:18:107",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint8",
                         "typeString": "uint8"
@@ -624,30 +700,30 @@
                     "operator": "==",
                     "rightExpression": {
                       "hexValue": "31",
-                      "id": 66515,
+                      "id": 68714,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
                       "kind": "number",
                       "lValueRequested": false,
                       "nodeType": "Literal",
-                      "src": "486:1:98",
+                      "src": "486:1:107",
                       "typeDescriptions": {
                         "typeIdentifier": "t_rational_1_by_1",
                         "typeString": "int_const 1"
                       },
                       "value": "1"
                     },
-                    "src": "464:23:98",
+                    "src": "464:23:107",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     }
                   },
-                  "functionReturnParameters": 66507,
-                  "id": 66517,
+                  "functionReturnParameters": 68706,
+                  "id": 68716,
                   "nodeType": "Return",
-                  "src": "457:30:98"
+                  "src": "457:30:107"
                 }
               ]
             },
@@ -655,20 +731,20 @@
             "kind": "function",
             "modifiers": [],
             "name": "transfersPaused",
-            "nameLocation": "393:15:98",
+            "nameLocation": "393:15:107",
             "parameters": {
-              "id": 66504,
+              "id": 68703,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 66503,
+                  "id": 68702,
                   "mutability": "mutable",
                   "name": "_data",
-                  "nameLocation": "415:5:98",
+                  "nameLocation": "415:5:107",
                   "nodeType": "VariableDeclaration",
-                  "scope": 66519,
-                  "src": "409:11:98",
+                  "scope": 68718,
+                  "src": "409:11:107",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -676,10 +752,10 @@
                     "typeString": "uint8"
                   },
                   "typeName": {
-                    "id": 66502,
+                    "id": 68701,
                     "name": "uint8",
                     "nodeType": "ElementaryTypeName",
-                    "src": "409:5:98",
+                    "src": "409:5:107",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint8",
                       "typeString": "uint8"
@@ -688,21 +764,21 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "408:13:98"
+              "src": "408:13:107"
             },
             "returnParameters": {
-              "id": 66507,
+              "id": 68706,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 66506,
+                  "id": 68705,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 66519,
-                  "src": "445:4:98",
+                  "scope": 68718,
+                  "src": "445:4:107",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -710,10 +786,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 66505,
+                    "id": 68704,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "445:4:98",
+                    "src": "445:4:107",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -722,68 +798,70 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "444:6:98"
+              "src": "444:6:107"
             },
-            "scope": 66577,
+            "scope": 68776,
             "stateMutability": "pure",
             "virtual": false,
             "visibility": "internal"
           },
           {
-            "id": 66554,
+            "id": 68753,
             "nodeType": "FunctionDefinition",
-            "src": "728:411:98",
+            "src": "728:411:107",
+            "nodes": [],
             "body": {
-              "id": 66553,
+              "id": 68752,
               "nodeType": "Block",
-              "src": "868:271:98",
+              "src": "868:271:107",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
                     "expression": {
-                      "id": 66528,
+                      "id": 68727,
                       "name": "_metadata",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 66523,
-                      "src": "915:9:98",
+                      "referencedDeclaration": 68722,
+                      "src": "915:9:107",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_JBGlobalFundingCycleMetadata_$66817_memory_ptr",
+                        "typeIdentifier": "t_struct$_JBGlobalFundingCycleMetadata_$69016_memory_ptr",
                         "typeString": "struct JBGlobalFundingCycleMetadata memory"
                       }
                     },
-                    "id": 66529,
+                    "id": 68728,
                     "isConstant": false,
                     "isLValue": true,
                     "isPure": false,
                     "lValueRequested": false,
-                    "memberLocation": "925:17:98",
+                    "memberLocation": "925:17:107",
                     "memberName": "allowSetTerminals",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 66812,
-                    "src": "915:27:98",
+                    "referencedDeclaration": 69011,
+                    "src": "915:27:107",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     }
                   },
-                  "id": 66534,
+                  "id": 68733,
                   "nodeType": "IfStatement",
-                  "src": "911:44:98",
+                  "src": "911:44:107",
                   "trueBody": {
                     "expression": {
-                      "id": 66532,
+                      "id": 68731,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "leftHandSide": {
-                        "id": 66530,
+                        "id": 68729,
                         "name": "packed",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 66526,
-                        "src": "944:6:98",
+                        "referencedDeclaration": 68725,
+                        "src": "944:6:107",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -793,77 +871,77 @@
                       "operator": "|=",
                       "rightHandSide": {
                         "hexValue": "31",
-                        "id": 66531,
+                        "id": 68730,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
                         "kind": "number",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "954:1:98",
+                        "src": "954:1:107",
                         "typeDescriptions": {
                           "typeIdentifier": "t_rational_1_by_1",
                           "typeString": "int_const 1"
                         },
                         "value": "1"
                       },
-                      "src": "944:11:98",
+                      "src": "944:11:107",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "id": 66533,
+                    "id": 68732,
                     "nodeType": "ExpressionStatement",
-                    "src": "944:11:98"
+                    "src": "944:11:107"
                   }
                 },
                 {
                   "condition": {
                     "expression": {
-                      "id": 66535,
+                      "id": 68734,
                       "name": "_metadata",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 66523,
-                      "src": "1003:9:98",
+                      "referencedDeclaration": 68722,
+                      "src": "1003:9:107",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_JBGlobalFundingCycleMetadata_$66817_memory_ptr",
+                        "typeIdentifier": "t_struct$_JBGlobalFundingCycleMetadata_$69016_memory_ptr",
                         "typeString": "struct JBGlobalFundingCycleMetadata memory"
                       }
                     },
-                    "id": 66536,
+                    "id": 68735,
                     "isConstant": false,
                     "isLValue": true,
                     "isPure": false,
                     "lValueRequested": false,
-                    "memberLocation": "1013:18:98",
+                    "memberLocation": "1013:18:107",
                     "memberName": "allowSetController",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 66814,
-                    "src": "1003:28:98",
+                    "referencedDeclaration": 69013,
+                    "src": "1003:28:107",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     }
                   },
-                  "id": 66543,
+                  "id": 68742,
                   "nodeType": "IfStatement",
-                  "src": "999:50:98",
+                  "src": "999:50:107",
                   "trueBody": {
                     "expression": {
-                      "id": 66541,
+                      "id": 68740,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "leftHandSide": {
-                        "id": 66537,
+                        "id": 68736,
                         "name": "packed",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 66526,
-                        "src": "1033:6:98",
+                        "referencedDeclaration": 68725,
+                        "src": "1033:6:107",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -876,21 +954,21 @@
                           "typeIdentifier": "t_rational_2_by_1",
                           "typeString": "int_const 2"
                         },
-                        "id": 66540,
+                        "id": 68739,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
                         "lValueRequested": false,
                         "leftExpression": {
                           "hexValue": "31",
-                          "id": 66538,
+                          "id": 68737,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
                           "kind": "number",
                           "lValueRequested": false,
                           "nodeType": "Literal",
-                          "src": "1043:1:98",
+                          "src": "1043:1:107",
                           "typeDescriptions": {
                             "typeIdentifier": "t_rational_1_by_1",
                             "typeString": "int_const 1"
@@ -901,83 +979,83 @@
                         "operator": "<<",
                         "rightExpression": {
                           "hexValue": "31",
-                          "id": 66539,
+                          "id": 68738,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
                           "kind": "number",
                           "lValueRequested": false,
                           "nodeType": "Literal",
-                          "src": "1048:1:98",
+                          "src": "1048:1:107",
                           "typeDescriptions": {
                             "typeIdentifier": "t_rational_1_by_1",
                             "typeString": "int_const 1"
                           },
                           "value": "1"
                         },
-                        "src": "1043:6:98",
+                        "src": "1043:6:107",
                         "typeDescriptions": {
                           "typeIdentifier": "t_rational_2_by_1",
                           "typeString": "int_const 2"
                         }
                       },
-                      "src": "1033:16:98",
+                      "src": "1033:16:107",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "id": 66542,
+                    "id": 68741,
                     "nodeType": "ExpressionStatement",
-                    "src": "1033:16:98"
+                    "src": "1033:16:107"
                   }
                 },
                 {
                   "condition": {
                     "expression": {
-                      "id": 66544,
+                      "id": 68743,
                       "name": "_metadata",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 66523,
-                      "src": "1092:9:98",
+                      "referencedDeclaration": 68722,
+                      "src": "1092:9:107",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_JBGlobalFundingCycleMetadata_$66817_memory_ptr",
+                        "typeIdentifier": "t_struct$_JBGlobalFundingCycleMetadata_$69016_memory_ptr",
                         "typeString": "struct JBGlobalFundingCycleMetadata memory"
                       }
                     },
-                    "id": 66545,
+                    "id": 68744,
                     "isConstant": false,
                     "isLValue": true,
                     "isPure": false,
                     "lValueRequested": false,
-                    "memberLocation": "1102:14:98",
+                    "memberLocation": "1102:14:107",
                     "memberName": "pauseTransfers",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 66816,
-                    "src": "1092:24:98",
+                    "referencedDeclaration": 69015,
+                    "src": "1092:24:107",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     }
                   },
-                  "id": 66552,
+                  "id": 68751,
                   "nodeType": "IfStatement",
-                  "src": "1088:46:98",
+                  "src": "1088:46:107",
                   "trueBody": {
                     "expression": {
-                      "id": 66550,
+                      "id": 68749,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "leftHandSide": {
-                        "id": 66546,
+                        "id": 68745,
                         "name": "packed",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 66526,
-                        "src": "1118:6:98",
+                        "referencedDeclaration": 68725,
+                        "src": "1118:6:107",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -990,21 +1068,21 @@
                           "typeIdentifier": "t_rational_4_by_1",
                           "typeString": "int_const 4"
                         },
-                        "id": 66549,
+                        "id": 68748,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
                         "lValueRequested": false,
                         "leftExpression": {
                           "hexValue": "31",
-                          "id": 66547,
+                          "id": 68746,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
                           "kind": "number",
                           "lValueRequested": false,
                           "nodeType": "Literal",
-                          "src": "1128:1:98",
+                          "src": "1128:1:107",
                           "typeDescriptions": {
                             "typeIdentifier": "t_rational_1_by_1",
                             "typeString": "int_const 1"
@@ -1015,107 +1093,107 @@
                         "operator": "<<",
                         "rightExpression": {
                           "hexValue": "32",
-                          "id": 66548,
+                          "id": 68747,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
                           "kind": "number",
                           "lValueRequested": false,
                           "nodeType": "Literal",
-                          "src": "1133:1:98",
+                          "src": "1133:1:107",
                           "typeDescriptions": {
                             "typeIdentifier": "t_rational_2_by_1",
                             "typeString": "int_const 2"
                           },
                           "value": "2"
                         },
-                        "src": "1128:6:98",
+                        "src": "1128:6:107",
                         "typeDescriptions": {
                           "typeIdentifier": "t_rational_4_by_1",
                           "typeString": "int_const 4"
                         }
                       },
-                      "src": "1118:16:98",
+                      "src": "1118:16:107",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "id": 66551,
+                    "id": 68750,
                     "nodeType": "ExpressionStatement",
-                    "src": "1118:16:98"
+                    "src": "1118:16:107"
                   }
                 }
               ]
             },
             "documentation": {
-              "id": 66520,
+              "id": 68719,
               "nodeType": "StructuredDocumentation",
-              "src": "496:229:98",
+              "src": "496:229:107",
               "text": "@notice\nPack the global funding cycle metadata.\n@param _metadata The metadata to validate and pack.\n@return packed The packed uint256 of all global metadata params. The first 8 bits specify the version."
             },
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "packFundingCycleGlobalMetadata",
-            "nameLocation": "737:30:98",
+            "nameLocation": "737:30:107",
             "parameters": {
-              "id": 66524,
+              "id": 68723,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 66523,
+                  "id": 68722,
                   "mutability": "mutable",
                   "name": "_metadata",
-                  "nameLocation": "804:9:98",
+                  "nameLocation": "804:9:107",
                   "nodeType": "VariableDeclaration",
-                  "scope": 66554,
-                  "src": "768:45:98",
+                  "scope": 68753,
+                  "src": "768:45:107",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_struct$_JBGlobalFundingCycleMetadata_$66817_memory_ptr",
+                    "typeIdentifier": "t_struct$_JBGlobalFundingCycleMetadata_$69016_memory_ptr",
                     "typeString": "struct JBGlobalFundingCycleMetadata"
                   },
                   "typeName": {
-                    "id": 66522,
+                    "id": 68721,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 66521,
+                      "id": 68720,
                       "name": "JBGlobalFundingCycleMetadata",
                       "nameLocations": [
-                        "768:28:98"
+                        "768:28:107"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 66817,
-                      "src": "768:28:98"
+                      "referencedDeclaration": 69016,
+                      "src": "768:28:107"
                     },
-                    "referencedDeclaration": 66817,
-                    "src": "768:28:98",
+                    "referencedDeclaration": 69016,
+                    "src": "768:28:107",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_JBGlobalFundingCycleMetadata_$66817_storage_ptr",
+                      "typeIdentifier": "t_struct$_JBGlobalFundingCycleMetadata_$69016_storage_ptr",
                       "typeString": "struct JBGlobalFundingCycleMetadata"
                     }
                   },
                   "visibility": "internal"
                 }
               ],
-              "src": "767:47:98"
+              "src": "767:47:107"
             },
             "returnParameters": {
-              "id": 66527,
+              "id": 68726,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 66526,
+                  "id": 68725,
                   "mutability": "mutable",
                   "name": "packed",
-                  "nameLocation": "858:6:98",
+                  "nameLocation": "858:6:107",
                   "nodeType": "VariableDeclaration",
-                  "scope": 66554,
-                  "src": "850:14:98",
+                  "scope": 68753,
+                  "src": "850:14:107",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1123,10 +1201,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 66525,
+                    "id": 68724,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "850:7:98",
+                    "src": "850:7:107",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1135,21 +1213,23 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "849:16:98"
+              "src": "849:16:107"
             },
-            "scope": 66577,
+            "scope": 68776,
             "stateMutability": "pure",
             "virtual": false,
             "visibility": "internal"
           },
           {
-            "id": 66576,
+            "id": 68775,
             "nodeType": "FunctionDefinition",
-            "src": "1321:325:98",
+            "src": "1321:325:107",
+            "nodes": [],
             "body": {
-              "id": 66575,
+              "id": 68774,
               "nodeType": "Block",
-              "src": "1451:195:98",
+              "src": "1451:195:107",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -1157,12 +1237,12 @@
                       {
                         "arguments": [
                           {
-                            "id": 66565,
+                            "id": 68764,
                             "name": "_packedMetadata",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 66557,
-                            "src": "1528:15:98",
+                            "referencedDeclaration": 68756,
+                            "src": "1528:15:107",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint8",
                               "typeString": "uint8"
@@ -1176,18 +1256,18 @@
                               "typeString": "uint8"
                             }
                           ],
-                          "id": 66564,
+                          "id": 68763,
                           "name": "setTerminalsAllowed",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 66483,
-                          "src": "1508:19:98",
+                          "referencedDeclaration": 68682,
+                          "src": "1508:19:107",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_pure$_t_uint8_$returns$_t_bool_$",
                             "typeString": "function (uint8) pure returns (bool)"
                           }
                         },
-                        "id": 66566,
+                        "id": 68765,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1196,7 +1276,7 @@
                         "nameLocations": [],
                         "names": [],
                         "nodeType": "FunctionCall",
-                        "src": "1508:36:98",
+                        "src": "1508:36:107",
                         "tryCall": false,
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
@@ -1206,12 +1286,12 @@
                       {
                         "arguments": [
                           {
-                            "id": 66568,
+                            "id": 68767,
                             "name": "_packedMetadata",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 66557,
-                            "src": "1575:15:98",
+                            "referencedDeclaration": 68756,
+                            "src": "1575:15:107",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint8",
                               "typeString": "uint8"
@@ -1225,18 +1305,18 @@
                               "typeString": "uint8"
                             }
                           ],
-                          "id": 66567,
+                          "id": 68766,
                           "name": "setControllerAllowed",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 66501,
-                          "src": "1554:20:98",
+                          "referencedDeclaration": 68700,
+                          "src": "1554:20:107",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_pure$_t_uint8_$returns$_t_bool_$",
                             "typeString": "function (uint8) pure returns (bool)"
                           }
                         },
-                        "id": 66569,
+                        "id": 68768,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1245,7 +1325,7 @@
                         "nameLocations": [],
                         "names": [],
                         "nodeType": "FunctionCall",
-                        "src": "1554:37:98",
+                        "src": "1554:37:107",
                         "tryCall": false,
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
@@ -1255,12 +1335,12 @@
                       {
                         "arguments": [
                           {
-                            "id": 66571,
+                            "id": 68770,
                             "name": "_packedMetadata",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 66557,
-                            "src": "1617:15:98",
+                            "referencedDeclaration": 68756,
+                            "src": "1617:15:107",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint8",
                               "typeString": "uint8"
@@ -1274,18 +1354,18 @@
                               "typeString": "uint8"
                             }
                           ],
-                          "id": 66570,
+                          "id": 68769,
                           "name": "transfersPaused",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 66519,
-                          "src": "1601:15:98",
+                          "referencedDeclaration": 68718,
+                          "src": "1601:15:107",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_pure$_t_uint8_$returns$_t_bool_$",
                             "typeString": "function (uint8) pure returns (bool)"
                           }
                         },
-                        "id": 66572,
+                        "id": 68771,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1294,7 +1374,7 @@
                         "nameLocations": [],
                         "names": [],
                         "nodeType": "FunctionCall",
-                        "src": "1601:32:98",
+                        "src": "1601:32:107",
                         "tryCall": false,
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
@@ -1317,18 +1397,18 @@
                           "typeString": "bool"
                         }
                       ],
-                      "id": 66563,
+                      "id": 68762,
                       "name": "JBGlobalFundingCycleMetadata",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 66817,
-                      "src": "1470:28:98",
+                      "referencedDeclaration": 69016,
+                      "src": "1470:28:107",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_struct$_JBGlobalFundingCycleMetadata_$66817_storage_ptr_$",
+                        "typeIdentifier": "t_type$_t_struct$_JBGlobalFundingCycleMetadata_$69016_storage_ptr_$",
                         "typeString": "type(struct JBGlobalFundingCycleMetadata storage pointer)"
                       }
                     },
-                    "id": 66573,
+                    "id": 68772,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1337,44 +1417,44 @@
                     "nameLocations": [],
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1470:171:98",
+                    "src": "1470:171:107",
                     "tryCall": false,
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_JBGlobalFundingCycleMetadata_$66817_memory_ptr",
+                      "typeIdentifier": "t_struct$_JBGlobalFundingCycleMetadata_$69016_memory_ptr",
                       "typeString": "struct JBGlobalFundingCycleMetadata memory"
                     }
                   },
-                  "functionReturnParameters": 66562,
-                  "id": 66574,
+                  "functionReturnParameters": 68761,
+                  "id": 68773,
                   "nodeType": "Return",
-                  "src": "1457:184:98"
+                  "src": "1457:184:107"
                 }
               ]
             },
             "documentation": {
-              "id": 66555,
+              "id": 68754,
               "nodeType": "StructuredDocumentation",
-              "src": "1143:175:98",
+              "src": "1143:175:107",
               "text": "@notice\nExpand the global funding cycle metadata.\n@param _packedMetadata The packed metadata to expand.\n@return metadata The global metadata object."
             },
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "expandMetadata",
-            "nameLocation": "1330:14:98",
+            "nameLocation": "1330:14:107",
             "parameters": {
-              "id": 66558,
+              "id": 68757,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 66557,
+                  "id": 68756,
                   "mutability": "mutable",
                   "name": "_packedMetadata",
-                  "nameLocation": "1351:15:98",
+                  "nameLocation": "1351:15:107",
                   "nodeType": "VariableDeclaration",
-                  "scope": 66576,
-                  "src": "1345:21:98",
+                  "scope": 68775,
+                  "src": "1345:21:107",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1382,10 +1462,10 @@
                     "typeString": "uint8"
                   },
                   "typeName": {
-                    "id": 66556,
+                    "id": 68755,
                     "name": "uint8",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1345:5:98",
+                    "src": "1345:5:107",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint8",
                       "typeString": "uint8"
@@ -1394,53 +1474,53 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1344:23:98"
+              "src": "1344:23:107"
             },
             "returnParameters": {
-              "id": 66562,
+              "id": 68761,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 66561,
+                  "id": 68760,
                   "mutability": "mutable",
                   "name": "metadata",
-                  "nameLocation": "1439:8:98",
+                  "nameLocation": "1439:8:107",
                   "nodeType": "VariableDeclaration",
-                  "scope": 66576,
-                  "src": "1403:44:98",
+                  "scope": 68775,
+                  "src": "1403:44:107",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_struct$_JBGlobalFundingCycleMetadata_$66817_memory_ptr",
+                    "typeIdentifier": "t_struct$_JBGlobalFundingCycleMetadata_$69016_memory_ptr",
                     "typeString": "struct JBGlobalFundingCycleMetadata"
                   },
                   "typeName": {
-                    "id": 66560,
+                    "id": 68759,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 66559,
+                      "id": 68758,
                       "name": "JBGlobalFundingCycleMetadata",
                       "nameLocations": [
-                        "1403:28:98"
+                        "1403:28:107"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 66817,
-                      "src": "1403:28:98"
+                      "referencedDeclaration": 69016,
+                      "src": "1403:28:107"
                     },
-                    "referencedDeclaration": 66817,
-                    "src": "1403:28:98",
+                    "referencedDeclaration": 69016,
+                    "src": "1403:28:107",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_JBGlobalFundingCycleMetadata_$66817_storage_ptr",
+                      "typeIdentifier": "t_struct$_JBGlobalFundingCycleMetadata_$69016_storage_ptr",
                       "typeString": "struct JBGlobalFundingCycleMetadata"
                     }
                   },
                   "visibility": "internal"
                 }
               ],
-              "src": "1402:46:98"
+              "src": "1402:46:107"
             },
-            "scope": 66577,
+            "scope": 68776,
             "stateMutability": "pure",
             "virtual": false,
             "visibility": "internal"
@@ -1453,15 +1533,15 @@
         "contractKind": "library",
         "fullyImplemented": true,
         "linearizedBaseContracts": [
-          66577
+          68776
         ],
         "name": "JBGlobalFundingCycleMetadataResolver",
-        "nameLocation": "117:36:98",
-        "scope": 66578,
+        "nameLocation": "117:36:107",
+        "scope": 68777,
         "usedErrors": []
       }
     ],
     "license": "MIT"
   },
-  "id": 98
+  "id": 107
 }

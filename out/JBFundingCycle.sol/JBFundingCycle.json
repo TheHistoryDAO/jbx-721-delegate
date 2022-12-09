@@ -10,28 +10,29 @@
   },
   "ast": {
     "absolutePath": "node_modules/@jbx-protocol/juice-contracts-v3/contracts/structs/JBFundingCycle.sol",
-    "id": 66755,
+    "id": 68954,
     "exportedSymbols": {
       "IERC165": [
-        71993
+        74192
       ],
       "IJBFundingCycleBallot": [
-        64351
+        66550
       ],
       "JBBallotState": [
-        63745
+        65944
       ],
       "JBFundingCycle": [
-        66754
+        68953
       ]
     },
     "nodeType": "SourceUnit",
-    "src": "32:2552:106",
+    "src": "32:2552:115",
     "nodes": [
       {
-        "id": 66733,
+        "id": 68932,
         "nodeType": "PragmaDirective",
-        "src": "32:23:106",
+        "src": "32:23:115",
+        "nodes": [],
         "literals": [
           "solidity",
           "^",
@@ -40,32 +41,34 @@
         ]
       },
       {
-        "id": 66734,
+        "id": 68933,
         "nodeType": "ImportDirective",
-        "src": "57:51:106",
+        "src": "57:51:115",
+        "nodes": [],
         "absolutePath": "node_modules/@jbx-protocol/juice-contracts-v3/contracts/interfaces/IJBFundingCycleBallot.sol",
         "file": "./../interfaces/IJBFundingCycleBallot.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 66755,
-        "sourceUnit": 64352,
+        "scope": 68954,
+        "sourceUnit": 66551,
         "symbolAliases": [],
         "unitAlias": ""
       },
       {
-        "id": 66754,
+        "id": 68953,
         "nodeType": "StructDefinition",
-        "src": "2365:218:106",
+        "src": "2365:218:115",
+        "nodes": [],
         "canonicalName": "JBFundingCycle",
         "members": [
           {
             "constant": false,
-            "id": 66736,
+            "id": 68935,
             "mutability": "mutable",
             "name": "number",
-            "nameLocation": "2399:6:106",
+            "nameLocation": "2399:6:115",
             "nodeType": "VariableDeclaration",
-            "scope": 66754,
-            "src": "2391:14:106",
+            "scope": 68953,
+            "src": "2391:14:115",
             "stateVariable": false,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -73,10 +76,10 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 66735,
+              "id": 68934,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
-              "src": "2391:7:106",
+              "src": "2391:7:115",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -86,13 +89,13 @@
           },
           {
             "constant": false,
-            "id": 66738,
+            "id": 68937,
             "mutability": "mutable",
             "name": "configuration",
-            "nameLocation": "2417:13:106",
+            "nameLocation": "2417:13:115",
             "nodeType": "VariableDeclaration",
-            "scope": 66754,
-            "src": "2409:21:106",
+            "scope": 68953,
+            "src": "2409:21:115",
             "stateVariable": false,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -100,10 +103,10 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 66737,
+              "id": 68936,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
-              "src": "2409:7:106",
+              "src": "2409:7:115",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -113,13 +116,13 @@
           },
           {
             "constant": false,
-            "id": 66740,
+            "id": 68939,
             "mutability": "mutable",
             "name": "basedOn",
-            "nameLocation": "2442:7:106",
+            "nameLocation": "2442:7:115",
             "nodeType": "VariableDeclaration",
-            "scope": 66754,
-            "src": "2434:15:106",
+            "scope": 68953,
+            "src": "2434:15:115",
             "stateVariable": false,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -127,10 +130,10 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 66739,
+              "id": 68938,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
-              "src": "2434:7:106",
+              "src": "2434:7:115",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -140,13 +143,13 @@
           },
           {
             "constant": false,
-            "id": 66742,
+            "id": 68941,
             "mutability": "mutable",
             "name": "start",
-            "nameLocation": "2461:5:106",
+            "nameLocation": "2461:5:115",
             "nodeType": "VariableDeclaration",
-            "scope": 66754,
-            "src": "2453:13:106",
+            "scope": 68953,
+            "src": "2453:13:115",
             "stateVariable": false,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -154,10 +157,10 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 66741,
+              "id": 68940,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
-              "src": "2453:7:106",
+              "src": "2453:7:115",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -167,13 +170,13 @@
           },
           {
             "constant": false,
-            "id": 66744,
+            "id": 68943,
             "mutability": "mutable",
             "name": "duration",
-            "nameLocation": "2478:8:106",
+            "nameLocation": "2478:8:115",
             "nodeType": "VariableDeclaration",
-            "scope": 66754,
-            "src": "2470:16:106",
+            "scope": 68953,
+            "src": "2470:16:115",
             "stateVariable": false,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -181,10 +184,10 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 66743,
+              "id": 68942,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
-              "src": "2470:7:106",
+              "src": "2470:7:115",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -194,13 +197,13 @@
           },
           {
             "constant": false,
-            "id": 66746,
+            "id": 68945,
             "mutability": "mutable",
             "name": "weight",
-            "nameLocation": "2498:6:106",
+            "nameLocation": "2498:6:115",
             "nodeType": "VariableDeclaration",
-            "scope": 66754,
-            "src": "2490:14:106",
+            "scope": 68953,
+            "src": "2490:14:115",
             "stateVariable": false,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -208,10 +211,10 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 66745,
+              "id": 68944,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
-              "src": "2490:7:106",
+              "src": "2490:7:115",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -221,13 +224,13 @@
           },
           {
             "constant": false,
-            "id": 66748,
+            "id": 68947,
             "mutability": "mutable",
             "name": "discountRate",
-            "nameLocation": "2516:12:106",
+            "nameLocation": "2516:12:115",
             "nodeType": "VariableDeclaration",
-            "scope": 66754,
-            "src": "2508:20:106",
+            "scope": 68953,
+            "src": "2508:20:115",
             "stateVariable": false,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -235,10 +238,10 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 66747,
+              "id": 68946,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
-              "src": "2508:7:106",
+              "src": "2508:7:115",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -248,36 +251,36 @@
           },
           {
             "constant": false,
-            "id": 66751,
+            "id": 68950,
             "mutability": "mutable",
             "name": "ballot",
-            "nameLocation": "2554:6:106",
+            "nameLocation": "2554:6:115",
             "nodeType": "VariableDeclaration",
-            "scope": 66754,
-            "src": "2532:28:106",
+            "scope": 68953,
+            "src": "2532:28:115",
             "stateVariable": false,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_IJBFundingCycleBallot_$64351",
+              "typeIdentifier": "t_contract$_IJBFundingCycleBallot_$66550",
               "typeString": "contract IJBFundingCycleBallot"
             },
             "typeName": {
-              "id": 66750,
+              "id": 68949,
               "nodeType": "UserDefinedTypeName",
               "pathNode": {
-                "id": 66749,
+                "id": 68948,
                 "name": "IJBFundingCycleBallot",
                 "nameLocations": [
-                  "2532:21:106"
+                  "2532:21:115"
                 ],
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 64351,
-                "src": "2532:21:106"
+                "referencedDeclaration": 66550,
+                "src": "2532:21:115"
               },
-              "referencedDeclaration": 64351,
-              "src": "2532:21:106",
+              "referencedDeclaration": 66550,
+              "src": "2532:21:115",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_IJBFundingCycleBallot_$64351",
+                "typeIdentifier": "t_contract$_IJBFundingCycleBallot_$66550",
                 "typeString": "contract IJBFundingCycleBallot"
               }
             },
@@ -285,13 +288,13 @@
           },
           {
             "constant": false,
-            "id": 66753,
+            "id": 68952,
             "mutability": "mutable",
             "name": "metadata",
-            "nameLocation": "2572:8:106",
+            "nameLocation": "2572:8:115",
             "nodeType": "VariableDeclaration",
-            "scope": 66754,
-            "src": "2564:16:106",
+            "scope": 68953,
+            "src": "2564:16:115",
             "stateVariable": false,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -299,10 +302,10 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 66752,
+              "id": 68951,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
-              "src": "2564:7:106",
+              "src": "2564:7:115",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -312,12 +315,12 @@
           }
         ],
         "name": "JBFundingCycle",
-        "nameLocation": "2372:14:106",
-        "scope": 66755,
+        "nameLocation": "2372:14:115",
+        "scope": 68954,
         "visibility": "public"
       }
     ],
     "license": "MIT"
   },
-  "id": 106
+  "id": 115
 }
