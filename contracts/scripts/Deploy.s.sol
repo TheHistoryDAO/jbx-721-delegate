@@ -6,8 +6,8 @@ import '../JBTiered721DelegateStore.sol';
 import 'forge-std/Script.sol';
 
 contract DeployMainnet is Script {
-  IJBController jbController = IJBController(0xFFdD70C318915879d5192e8a0dcbFcB0285b3C98);
-  IJBOperatorStore jbOperatorStore = IJBOperatorStore(0x6F3C5afCa0c9eDf3926eF2dDF17c8ae6391afEfb);
+  IJBController jbController = IJBController(0xe29059B4a169091Ed982b0546df9F79B330eEa85);
+  IJBOperatorStore jbOperatorStore = IJBOperatorStore(0xDA42A208e866af321bb2BD7cB0e5504555504b87);
 
   JBTiered721DelegateDeployer delegateDeployer;
   JBTiered721DelegateProjectDeployer projectDeployer;
